@@ -27,7 +27,7 @@ function DomElement(selector, height, width, bg, fontSize){
 			return 0;
 		}
 	};
-	this.newElem(); // вызывается при создании нового объекта
+	this.newElem(); // вызывается при создании нового объекта 
 }
 
 const newDomElem = new DomElement(newClass, 50, 100, 'red', 21);
